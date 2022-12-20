@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <h1> DOM </h1>
+    <p> Aqui vai o resultado</p>
+    <p> aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <div id="msg"> Clique em mim!!</div>
+    <script>
+        var p1 = document.getElementsByTagName('p')[0]       /*(Tag)*/
+
+        var a = document.getElementById('msg')               /*(id) */
+
+        var f = document.getElementsByName('msg') [0]        /*(Nome)*/
+
+        var b = document.getElementsByClassName('msg')[0]     /*(Class)*/
+
+        var d = document.querySelector('div#msg')  /*Por (id) ou (class)*/
+     
+        
+    </script>
+
+</body>
+</html>
