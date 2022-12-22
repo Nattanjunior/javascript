@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAÍSES</title>
+</head>
+<body>
+    <h1>PAÍSES</h1>
+    <label for="iBrasil">Qual é o seu país?:</label>
+    <input type="text" name="país" id="Brasil" required placeholder="Digite aqui seu País">
+    <input type="button" value="verificar" onclick="clicar()">
+    <p>
+        <div id="res">
+        </div>
+    </p>
+    <script>
+       function clicar () {
+        var pais = document.getElementById('Brasil')
+        var txt1 = (pais.value)
+        var res = document.getElementById('res')
+        res.innerHTML = `Vivendo em ${pais}`
+        if (txt1 == 'Brasil' || txt1 == 'brasil') {
+            res.innerHTML = '<p>Você é Brasileiro '
+        } else {
+            res.innerHTML = 'Você é Estrangeiro'
+        }
+       }
+    </script>
+</body>
+</html>
