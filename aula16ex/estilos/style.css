@@ -1,0 +1,36 @@
+*{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(107, 107, 241);
+}
+header > h1{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.236);
+}
+footer{
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px; /*Código para deixar as imagens redondas é pequenas , caso não tenha photoshop*/
+}
+div#res{ 
+    text-align: center;
+}

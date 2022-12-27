@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de passos</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                <label for="num1">Início:</label>
+                <input type="number" name="num1" id="num1"  placeholder="Digite um Número" min="0">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="num2">Fim:</label>
+                <input type="number" name="num2" id="num2"  placeholder="Digite um Número" min="0">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="passo">Passo:</label>
+                <input type="number" name="passo" id="passo"  placeholder="Digite um Número" min="0">
+            </p>
+        </div>
+        <div>
+            <p>
+                <input type="button" value="contar" onclick="contar()">
+            </p>
+        </div>
+        <div id="res">
+            <p>
+                Preparando a Contagem...
+            </p>
+        </div>
+    </section>
+    <footer>&copy;CursoemVideo</footer>
+    <script src="script.js"></script>
+</body>
+</html>
