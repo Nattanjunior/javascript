@@ -19,4 +19,17 @@ section{
 }
 footer{
     text-align: center;
+    background-color: white;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+}
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px; /*Código para deixar as imagens redondas é pequenas , caso não tenha photoshop*/
+}
+div{
+    text-align: center;
+    padding: 9px;
 }
