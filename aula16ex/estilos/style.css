@@ -26,11 +26,7 @@ footer{
     margin-top: 10px;
     border-radius: 10px;
 }
-img{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px; /*Código para deixar as imagens redondas é pequenas , caso não tenha photoshop*/
-}
+
 div#res{ 
     text-align: center;
 }
